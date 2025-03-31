@@ -4,8 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fast Food Restaurante</title>
+    <link rel="stylesheet" href="Style.css">   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
+    <script src="app.js"></script>
 </head>
-<body>
+<body>  
+    <h1 class="Titulo">Bievenido Al Restaurante Fast Food </h1>
     
+    <form action="Pagina2.html" method="get">
+        <h1 class="title">Registrar</h1>
+               
+        <label for="username">
+            <i class="fa-solid fa-user"></i>
+            <input placeholder="username" type="text" id="username">
+        </label>
+
+        <label for="password">
+            <i class="fa-solid fa-lock"></i>
+            <input placeholder="password" type="text" id="password">
+        </label>
+        <a href="#" class="link">¿Olvidaste tu contraseña?</a>
+   
+            <!-- Botón que redirige a Pagina2.html -->
+        <button id="loginButton" type="button" onclick="window.location.href='Pagina2.html'">Login</button>
+
+    </form>  
+
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </html>
