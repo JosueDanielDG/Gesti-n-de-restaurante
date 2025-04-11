@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const username = document.getElementById('username');
 const password = document.getElementById('password');
 const button = document.getElementById('button');
@@ -22,3 +23,18 @@ button.addEventListener('click', (e) => {
     }
 });
 
+=======
+const username = document.getElementById('username')
+const password = document.getElementById('password')
+const button = document.getElementById('button')
+
+button.addEventListener('click', (e) => {
+    e.preventDefault()
+    const data = {
+        username: username.value,
+        password: password.value
+    }
+
+    console.log(data)
+})
+>>>>>>> b0c7aff15548fabcb05e271a00c2103217b46e92
