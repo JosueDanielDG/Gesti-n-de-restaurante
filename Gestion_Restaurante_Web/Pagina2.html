@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Restaurante Fast Food - ¡La mejor comida rápida de la ciudad! Pizza, hamburguesas, pollo a la brasa y más.">
+    <meta name="keywords" content="Restaurante, comida rápida, menú, pizza, hamburguesas, pollo, hot dog, contacto">
+    <meta name="author" content="Tu Nombre">
+    <title>Restaurante Fast Food</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Style2.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Restaurante Fast Food</h1>
+        <p>La mejor comida para ti</p>
+    </header>
+
+    <!-- Barra de navegación -->
+    <nav>
+        <a href="#menu">Menú</a>
+        <a href="#gallery">Galería</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+
+    <!-- Sección del menú -->
+    <section class="menu" id="menu">
+        <h2>Menú</h2>
+        <div class="menu-container">
+            <div class="menu-item">
+                <img src="Pizza.jpg" alt="Pizza deliciosa de nuestro restaurante" class="menu-img">
+                <h3>Pizza</h3>
+                <p class="description">Deliciosa pizza con ingredientes frescos y masa artesanal.</p>
+                <span class="price">$20</span>
+            </div>
+            <div class="menu-item">
+                <img src="hamburguesa.jpg" alt="Hamburguesa jugosa servida en el restaurante" class="menu-img">
+                <h3>Hamburguesa</h3>
+                <p class="description">Hamburguesa jugosa con carne de calidad y acompañada de papas fritas.</p>
+                <span class="price">$10</span>
+            </div>
+            <div class="menu-item">
+                <img src="Pollo.jpg" alt="Pollo a la brasa recién hecho" class="menu-img">
+                <h3>Pollo a la Brasa</h3>
+                <p class="description">Pollo a la brasa con un toque especial de nuestra receta secreta.</p>
+                <span class="price">$15</span>
+            </div>
+            <div class="menu-item">
+                <img src="HotDog.jpg" alt="Delicioso Hot Dog con ingredientes frescos" class="menu-img">
+                <h3>Hot Dog</h3>
+                <p class="description">Hot dog con salchicha premium y aderezos a tu gusto.</p>
+                <span class="price">$10</span>
+            </div>
+            <div class="menu-item">
+                <img src="Sachipapa.jpg" alt="Sachipapa con salsa" class="menu-img">
+                <h3>Sachipapa</h3>
+                <p class="description">Sachipapa crujiente con salsas caseras y acompañamientos.</p>
+                <span class="price">$10</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de la galería -->
+    <section class="gallery" id="gallery">
+        <h2>Galería</h2>
+        <div class="gallery-container">
+            <img src="Pizza.jpg" alt="Pizza deliciosa de nuestro restaurante" class="gallery-item">
+            <img src="hamburguesa.jpg" alt="Hamburguesa jugosa servida en el restaurante" class="gallery-item">
+            <img src="Pollo.jpg" alt="Pollo a la brasa recién hecho" class="gallery-item">
+            <img src="Hot Dog.jpg" alt="Hot Dog Delicioso" class="gallery-item">
+            <img src="Salchipapa.jpg" alt="Sachipapa rica y deliciosa" class="gallery-item">
+        </div>
+    </section>
+
+    <!-- Sección de contacto -->
+    <section class="contact" id="contact">
+        <h2>Hacer Pedido</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <input type="text" name="name" placeholder="Tu nombre" required>
+            </div>
+            <div class="form-group">
+                <input type="email" name="email" placeholder="Tu correo electrónico" required>
+            </div>
+            <div class="form-group">
+                <textarea name="message" rows="4" placeholder="Escribe tu mensaje" required></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+</body>
+
+</html>
