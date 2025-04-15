@@ -9,3 +9,8 @@ Tecnologias a utilizar:
   Backend:
      
       -Node.js
+
+Integrantes:
+    -Josue Daniel Delgado
+    -Alexander Garcia Saenz
+    -Nicol Vazquez ramos      
